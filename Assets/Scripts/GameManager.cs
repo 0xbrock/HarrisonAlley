@@ -18,7 +18,15 @@ public class GameManager : MonoBehaviour
 
     public float startTime = 5.0f;
 
-    public Text mainScoreDisplay;
+    public bool displayFps = true;
+    private const string DISPLAY_TEXT_FORMAT = "{0} msf\n({1} FPS)";
+    private const string MSF_FORMAT = "#.#";
+    private const float MS_PER_SEC = 1000f;
+    private float fps = 60;
+    public Text fpsDisplay;
+
+    public Text hitScoreDisplay;
+    public Text missScoreDisplay;
     public Text mainTimerDisplay;
 
     public GameObject gameOverScoreOutline;
@@ -47,7 +55,8 @@ public class GameManager : MonoBehaviour
             gm = this.gameObject.GetComponent<GameManager>();
 
         // init scoreboard to 0
-        mainScoreDisplay.text = "0";
+        hitScoreDisplay.text = "0";
+        missScoreDisplay.text = "0";
 
         // inactivate the gameOverScoreOutline gameObject, if it is set
         if (gameOverScoreOutline)
@@ -80,6 +89,22 @@ public class GameManager : MonoBehaviour
                 currentTime -= Time.deltaTime;
                 mainTimerDisplay.text = currentTime.ToString("0.00");
             }
+        }
+    }
+
+    
+
+    void LateUpdate()
+    {
+        if (displayFps)
+        {
+            float deltaTime = Time.unscaledDeltaTime;
+            float interp = deltaTime / (0.5f + deltaTime);
+            float currentFPS = 1.0f / deltaTime;
+            fps = Mathf.Lerp(fps, currentFPS, interp);
+            float msf = MS_PER_SEC / fps;
+            fpsDisplay.text = string.Format(DISPLAY_TEXT_FORMAT,
+                msf.ToString(MSF_FORMAT), Mathf.RoundToInt(fps));
         }
     }
 
@@ -135,7 +160,7 @@ public class GameManager : MonoBehaviour
     {
         // increase the score by the scoreAmount and update the text UI
         hitScore += scoreAmount;
-        mainScoreDisplay.text = hitScore.ToString();
+        hitScoreDisplay.text = hitScore.ToString();
 
         // increase the time by the timeAmount
         currentTime += timeAmount;
@@ -147,6 +172,25 @@ public class GameManager : MonoBehaviour
         // update the text UI
         mainTimerDisplay.text = currentTime.ToString("0.00");
     }
+
+    // public function that can be called to update the score or time
+    public void targetMiss(int scoreAmount, float timeAmount)
+    {
+        // increase the score by the scoreAmount and update the text UI
+        missScore += scoreAmount;
+        missScoreDisplay.text = missScore.ToString();
+
+        // increase the time by the timeAmount
+        currentTime += timeAmount;
+
+        // don't let it go negative
+        if (currentTime < 0)
+            currentTime = 0.0f;
+
+        // update the text UI
+        mainTimerDisplay.text = currentTime.ToString("0.00");
+    }
+
 
     // public function that can be called to restart the game
     public void RestartGame()
