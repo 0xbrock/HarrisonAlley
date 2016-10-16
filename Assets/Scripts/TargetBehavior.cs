@@ -7,10 +7,18 @@ public class TargetBehavior : MonoBehaviour
     public float timeAmount = 0.0f;
 
     public GameObject explosionPrefab;
+	public AudioClip deathSound;
+
+	private AudioSource source;
+	private TargetSpawner parent;
+
+	void Start() {
+	}
 
     // when collided with another gameObject
     void OnCollisionEnter(Collision newCollision)
     {
+		source = parent.GetComponent<AudioSource> ();
         // exit if there is a game manager and the game is over
         if (GameManager.gm && GameManager.gm.gameIsOver)
             return;
@@ -28,6 +36,9 @@ public class TargetBehavior : MonoBehaviour
             if (GameManager.gm)
                 GameManager.gm.targetHit(scoreAmount, timeAmount);
 
+			source.PlayOneShot (deathSound);
+			parent.SetOccupied (false);
+
             // destroy the projectile
             Destroy(newCollision.gameObject);
 
@@ -35,4 +46,8 @@ public class TargetBehavior : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+	public void SetParent(TargetSpawner parent) {
+		this.parent = parent;
+	}
 }

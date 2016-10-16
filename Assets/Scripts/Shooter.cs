@@ -17,6 +17,10 @@ public class Shooter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (Input.GetKeyDown ("space")) {
+			source.PlayOneShot (shootSound);
+			shootRay ();
+		}
 		foreach (var touch in Input.touches) {
 			if (touch.phase == TouchPhase.Began) {
 				source.PlayOneShot (shootSound);
