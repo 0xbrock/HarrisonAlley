@@ -117,6 +117,7 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\TargetBehavior.cs" />
     <Compile Include="Assets\Scripts\TargetExit.cs" />
+    <Compile Include="Assets\Scripts\TargetSpawner.cs" />
     <Compile Include="Assets\Scripts\TieToCamera.cs" />
   </ItemGroup>
   <ItemGroup>
