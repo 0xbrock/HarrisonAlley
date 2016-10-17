@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour
     public GameObject nextLevelButtons;
     public string nextLevelToLoad;
 
+	public string mainMenuScene;
     private float currentTime;
 
     // setup the game
@@ -142,6 +143,9 @@ public class GameManager : MonoBehaviour
             musicAudioSource.pitch = 0.5f; // slow down the music
             musicAudioSource.volume += 0.2f;
         }
+
+		Time.timeScale = 1f;
+		Invoke ("MainMenu", 5);
     }
 
 	void SetHighScore() {
@@ -229,5 +233,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(nextLevelToLoad);
     }
 
-
+	public void MainMenu() {
+		SceneManager.LoadScene (mainMenuScene);
+	}
 }
