@@ -55,10 +55,6 @@ public class GameManager : MonoBehaviour
         currentTime = startTime;
 		currentHighScore = PlayerPrefs.GetInt ("Highscore");
 
-		if (currentHighScore != null) {
-			highScoreDisplay.text = currentHighScore.ToString();
-		}
-
         // get a reference to the GameManager component for use by other scripts
         if (gm == null)
             gm = this.gameObject.GetComponent<GameManager>();
