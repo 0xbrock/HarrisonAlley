@@ -22,11 +22,13 @@ public class GameManager : MonoBehaviour
     private const string DISPLAY_TEXT_FORMAT = "{0} msf\n({1} FPS)";
     private const string MSF_FORMAT = "#.#";
     private const float MS_PER_SEC = 1000f;
+	private int currentHighScore;
     private float fps = 60;
     public Text fpsDisplay;
 
     public Text hitScoreDisplay;
     public Text missScoreDisplay;
+	public Text highScoreDisplay;
     public Text mainTimerDisplay;
 
     public GameObject gameOverScoreOutline;
@@ -51,6 +53,11 @@ public class GameManager : MonoBehaviour
 
         // set the current time to the startTime specified
         currentTime = startTime;
+		currentHighScore = PlayerPrefs.GetInt ("Highscore");
+
+		if (currentHighScore != null) {
+			highScoreDisplay.text = currentHighScore.ToString();
+		}
 
         // get a reference to the GameManager component for use by other scripts
         if (gm == null)
@@ -123,6 +130,8 @@ public class GameManager : MonoBehaviour
 		Time.timeScale = 0.0f;
 		musicAudioSource.PlayOneShot (gameOverSound);
 
+		SetHighScore ();
+
         // activate the gameOverScoreOutline gameObject, if it is set 
         if (gameOverScoreOutline)
             gameOverScoreOutline.SetActive(true);
@@ -138,6 +147,16 @@ public class GameManager : MonoBehaviour
             musicAudioSource.volume += 0.2f;
         }
     }
+
+	void SetHighScore() {
+		var totalScore = hitScore - missScore;
+		if (totalScore < 0) {
+			totalScore = 0;
+		}
+		if (totalScore > currentHighScore) {
+			PlayerPrefs.SetInt ("Highscore", totalScore);
+		}
+	}
 
     void BeatLevel()
     {
