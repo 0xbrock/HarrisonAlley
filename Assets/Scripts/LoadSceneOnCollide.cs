@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class LoadSceneOnCollide : MonoBehaviour {
@@ -9,7 +10,7 @@ public class LoadSceneOnCollide : MonoBehaviour {
 			GameObject loadingObject = GameObject.FindGameObjectsWithTag ("LoadingText")[0];
 			var renderer = loadingObject.GetComponent<MeshRenderer> ();
 			renderer.enabled = true;
-			Application.LoadLevel (SceneToLoad);
+			SceneManager.LoadScene (SceneToLoad);
 		}
 	}
 
