@@ -1,0 +1,778 @@
+fileFormatVersion: 2
+guid: 603dea498200e46f996d8e890ead9b40
+timeCreated: 1476664744
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f00000050000000510000005200000053000000540000005500000056000000570000005e0000005f000000600000006100000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000790000007a0000007b0000007c000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f01000060010000610100006201000063010000
+  assetHash:
+    serializedVersion: 2
+    Hash: ef13970debdf5aeb04fc18d98680639b
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -15.858914, y: 25.187973, z: 65.61762}
+      lookAt: {x: -6.0802135, y: 13.366006, z: 43.949554}
+      up: {x: 0.18316309, y: 0.89539295, z: -0.40586054}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: back 1
+    100004: back 2
+    100006: back 3
+    100008: back 4
+    100010: back 5
+    100012: brace
+    100014: brace 1
+    100016: brace 2
+    100018: brace 3
+    100020: brace 4
+    100022: brace 5
+    100024: brace2
+    100026: brace2 1
+    100028: brace2 10
+    100030: brace2 11
+    100032: brace2 12
+    100034: brace2 13
+    100036: brace2 14
+    100038: brace2 2
+    100040: brace2 3
+    100042: brace2 4
+    100044: brace2 5
+    100046: brace2 6
+    100048: brace2 7
+    100050: brace2 8
+    100052: brace2 9
+    100054: chair
+    100056: chair 1
+    100058: chair 2
+    100060: chair_back
+    100062: chair_back 1
+    100064: chair_back 2
+    100066: Chair_Lounge_Cushion
+    100068: Chair_Lounge_Cushion 1
+    100070: Chair_Lounge_Cushion 2
+    100072: chair_side
+    100074: chair_side 1
+    100076: chair_side 2
+    100078: chair_side 3
+    100080: chair_side 4
+    100082: chair_side 5
+    100084: crown
+    100086: crown 1
+    100088: cushion leg
+    100090: cushion leg 1
+    100092: cushion leg 2
+    100094: cushion top
+    100096: cushion top 1
+    100098: cushion top 2
+    100100: Group 1
+    100102: Group 3
+    100104: Group 5
+    100106: Group 9
+    100108: Group#1
+    100110: leaf
+    100112: leaf 1
+    100114: leaf 2
+    100116: leaf 3
+    100118: leaf 4
+    100120: leaf 5
+    100122: Picnic Leg
+    100124: Picnic Leg 1
+    100126: Picnic Leg 2
+    100128: Picnic Leg 3
+    100130: Picnic Plank
+    100132: Picnic Plank 1
+    100134: Picnic Plank 2
+    100136: Picnic Plank 3
+    100138: Picnic Plank 4
+    100140: Picnic Plank 5
+    100142: Picnic Plank 6
+    100144: Picnic Plank 7
+    100146: Picnic Plank 8
+    100148: Picnic Plank 9
+    100150: slat
+    100152: slat 1
+    100154: slat 10
+    100156: slat 11
+    100158: slat 12
+    100160: slat 13
+    100162: slat 14
+    100164: slat 15
+    100166: slat 16
+    100168: slat 17
+    100170: slat 18
+    100172: slat 19
+    100174: slat 2
+    100176: slat 20
+    100178: slat 21
+    100180: slat 22
+    100182: slat 23
+    100184: slat 24
+    100186: slat 25
+    100188: slat 26
+    100190: slat 27
+    100192: slat 28
+    100194: slat 29
+    100196: slat 3
+    100198: slat 30
+    100200: slat 31
+    100202: slat 32
+    100204: slat 33
+    100206: slat 34
+    100208: slat 35
+    100210: slat 36
+    100212: slat 37
+    100214: slat 38
+    100216: slat 39
+    100218: slat 4
+    100220: slat 40
+    100222: slat 41
+    100224: slat 42
+    100226: slat 43
+    100228: slat 44
+    100230: slat 45
+    100232: slat 46
+    100234: slat 47
+    100236: slat 48
+    100238: slat 49
+    100240: slat 5
+    100242: slat 50
+    100244: slat 51
+    100246: slat 52
+    100248: slat 53
+    100250: slat 54
+    100252: slat 55
+    100254: slat 56
+    100256: slat 57
+    100258: slat 58
+    100260: slat 59
+    100262: slat 6
+    100264: slat 60
+    100266: slat 61
+    100268: slat 62
+    100270: slat 7
+    100272: slat 8
+    100274: slat 9
+    100276: //RootNode
+    100278: Table_Picnic_Plastic
+    100280: Table_Picnic_Plastic 1
+    100282: 'Trash Receptacle Dome-Park '
+    100284: Tree_Tropical_Palm_Bent_30_
+    100286: Tree_Tropical_Palm_Bent_30_ 1
+    100288: Tree_Tropical_Palm_Bent_30_ 2
+    100290: Tree_Tropical_Palm_Straight_30_
+    100292: Tree_Tropical_Palm_Straight_30_ 1
+    100294: trunk
+    100296: trunk 1
+    100298: wheel
+    100300: wheel 1
+    100302: wheel 2
+    100304: wheel 3
+    100306: wheel 4
+    100308: wheel 5
+    100310: Wood Slat
+    100312: Wood Slat 1
+    100314: Wood Slat 10
+    100316: Wood Slat 11
+    100318: Wood Slat 12
+    100320: Wood Slat 13
+    100322: Wood Slat 14
+    100324: Wood Slat 15
+    100326: Wood Slat 16
+    100328: Wood Slat 17
+    100330: Wood Slat 2
+    100332: Wood Slat 3
+    100334: Wood Slat 4
+    100336: Wood Slat 5
+    100338: Wood Slat 6
+    100340: Wood Slat 7
+    100342: Wood Slat 8
+    100344: Wood Slat 9
+    400000: back
+    400002: back 1
+    400004: back 2
+    400006: back 3
+    400008: back 4
+    400010: back 5
+    400012: brace
+    400014: brace 1
+    400016: brace 2
+    400018: brace 3
+    400020: brace 4
+    400022: brace 5
+    400024: brace2
+    400026: brace2 1
+    400028: brace2 10
+    400030: brace2 11
+    400032: brace2 12
+    400034: brace2 13
+    400036: brace2 14
+    400038: brace2 2
+    400040: brace2 3
+    400042: brace2 4
+    400044: brace2 5
+    400046: brace2 6
+    400048: brace2 7
+    400050: brace2 8
+    400052: brace2 9
+    400054: chair
+    400056: chair 1
+    400058: chair 2
+    400060: chair_back
+    400062: chair_back 1
+    400064: chair_back 2
+    400066: Chair_Lounge_Cushion
+    400068: Chair_Lounge_Cushion 1
+    400070: Chair_Lounge_Cushion 2
+    400072: chair_side
+    400074: chair_side 1
+    400076: chair_side 2
+    400078: chair_side 3
+    400080: chair_side 4
+    400082: chair_side 5
+    400084: crown
+    400086: crown 1
+    400088: cushion leg
+    400090: cushion leg 1
+    400092: cushion leg 2
+    400094: cushion top
+    400096: cushion top 1
+    400098: cushion top 2
+    400100: Group 1
+    400102: Group 3
+    400104: Group 5
+    400106: Group 9
+    400108: Group#1
+    400110: leaf
+    400112: leaf 1
+    400114: leaf 2
+    400116: leaf 3
+    400118: leaf 4
+    400120: leaf 5
+    400122: Picnic Leg
+    400124: Picnic Leg 1
+    400126: Picnic Leg 2
+    400128: Picnic Leg 3
+    400130: Picnic Plank
+    400132: Picnic Plank 1
+    400134: Picnic Plank 2
+    400136: Picnic Plank 3
+    400138: Picnic Plank 4
+    400140: Picnic Plank 5
+    400142: Picnic Plank 6
+    400144: Picnic Plank 7
+    400146: Picnic Plank 8
+    400148: Picnic Plank 9
+    400150: slat
+    400152: slat 1
+    400154: slat 10
+    400156: slat 11
+    400158: slat 12
+    400160: slat 13
+    400162: slat 14
+    400164: slat 15
+    400166: slat 16
+    400168: slat 17
+    400170: slat 18
+    400172: slat 19
+    400174: slat 2
+    400176: slat 20
+    400178: slat 21
+    400180: slat 22
+    400182: slat 23
+    400184: slat 24
+    400186: slat 25
+    400188: slat 26
+    400190: slat 27
+    400192: slat 28
+    400194: slat 29
+    400196: slat 3
+    400198: slat 30
+    400200: slat 31
+    400202: slat 32
+    400204: slat 33
+    400206: slat 34
+    400208: slat 35
+    400210: slat 36
+    400212: slat 37
+    400214: slat 38
+    400216: slat 39
+    400218: slat 4
+    400220: slat 40
+    400222: slat 41
+    400224: slat 42
+    400226: slat 43
+    400228: slat 44
+    400230: slat 45
+    400232: slat 46
+    400234: slat 47
+    400236: slat 48
+    400238: slat 49
+    400240: slat 5
+    400242: slat 50
+    400244: slat 51
+    400246: slat 52
+    400248: slat 53
+    400250: slat 54
+    400252: slat 55
+    400254: slat 56
+    400256: slat 57
+    400258: slat 58
+    400260: slat 59
+    400262: slat 6
+    400264: slat 60
+    400266: slat 61
+    400268: slat 62
+    400270: slat 7
+    400272: slat 8
+    400274: slat 9
+    400276: //RootNode
+    400278: Table_Picnic_Plastic
+    400280: Table_Picnic_Plastic 1
+    400282: 'Trash Receptacle Dome-Park '
+    400284: Tree_Tropical_Palm_Bent_30_
+    400286: Tree_Tropical_Palm_Bent_30_ 1
+    400288: Tree_Tropical_Palm_Bent_30_ 2
+    400290: Tree_Tropical_Palm_Straight_30_
+    400292: Tree_Tropical_Palm_Straight_30_ 1
+    400294: trunk
+    400296: trunk 1
+    400298: wheel
+    400300: wheel 1
+    400302: wheel 2
+    400304: wheel 3
+    400306: wheel 4
+    400308: wheel 5
+    400310: Wood Slat
+    400312: Wood Slat 1
+    400314: Wood Slat 10
+    400316: Wood Slat 11
+    400318: Wood Slat 12
+    400320: Wood Slat 13
+    400322: Wood Slat 14
+    400324: Wood Slat 15
+    400326: Wood Slat 16
+    400328: Wood Slat 17
+    400330: Wood Slat 2
+    400332: Wood Slat 3
+    400334: Wood Slat 4
+    400336: Wood Slat 5
+    400338: Wood Slat 6
+    400340: Wood Slat 7
+    400342: Wood Slat 8
+    400344: Wood Slat 9
+    2300000: back
+    2300002: back 1
+    2300004: back 2
+    2300006: back 3
+    2300008: back 4
+    2300010: back 5
+    2300012: brace
+    2300014: brace 1
+    2300016: brace 2
+    2300018: brace 3
+    2300020: brace 4
+    2300022: brace 5
+    2300024: brace2
+    2300026: brace2 1
+    2300028: brace2 10
+    2300030: brace2 11
+    2300032: brace2 12
+    2300034: brace2 13
+    2300036: brace2 14
+    2300038: brace2 2
+    2300040: brace2 3
+    2300042: brace2 4
+    2300044: brace2 5
+    2300046: brace2 6
+    2300048: brace2 7
+    2300050: brace2 8
+    2300052: brace2 9
+    2300054: chair_side
+    2300056: chair_side 1
+    2300058: chair_side 2
+    2300060: chair_side 3
+    2300062: chair_side 4
+    2300064: chair_side 5
+    2300066: crown
+    2300068: crown 1
+    2300070: cushion leg
+    2300072: cushion leg 1
+    2300074: cushion leg 2
+    2300076: cushion top
+    2300078: cushion top 1
+    2300080: cushion top 2
+    2300082: Group 1
+    2300084: Group 3
+    2300086: Group 5
+    2300088: Group 9
+    2300090: Group#1
+    2300092: leaf
+    2300094: leaf 1
+    2300096: leaf 2
+    2300098: leaf 3
+    2300100: leaf 4
+    2300102: leaf 5
+    2300104: Picnic Leg
+    2300106: Picnic Leg 1
+    2300108: Picnic Leg 2
+    2300110: Picnic Leg 3
+    2300112: Picnic Plank
+    2300114: Picnic Plank 1
+    2300116: Picnic Plank 2
+    2300118: Picnic Plank 3
+    2300120: Picnic Plank 4
+    2300122: Picnic Plank 5
+    2300124: Picnic Plank 6
+    2300126: Picnic Plank 7
+    2300128: Picnic Plank 8
+    2300130: Picnic Plank 9
+    2300132: slat
+    2300134: slat 1
+    2300136: slat 10
+    2300138: slat 11
+    2300140: slat 12
+    2300142: slat 13
+    2300144: slat 14
+    2300146: slat 15
+    2300148: slat 16
+    2300150: slat 17
+    2300152: slat 18
+    2300154: slat 19
+    2300156: slat 2
+    2300158: slat 20
+    2300160: slat 21
+    2300162: slat 22
+    2300164: slat 23
+    2300166: slat 24
+    2300168: slat 25
+    2300170: slat 26
+    2300172: slat 27
+    2300174: slat 28
+    2300176: slat 29
+    2300178: slat 3
+    2300180: slat 30
+    2300182: slat 31
+    2300184: slat 32
+    2300186: slat 33
+    2300188: slat 34
+    2300190: slat 35
+    2300192: slat 36
+    2300194: slat 37
+    2300196: slat 38
+    2300198: slat 39
+    2300200: slat 4
+    2300202: slat 40
+    2300204: slat 41
+    2300206: slat 42
+    2300208: slat 43
+    2300210: slat 44
+    2300212: slat 45
+    2300214: slat 46
+    2300216: slat 47
+    2300218: slat 48
+    2300220: slat 49
+    2300222: slat 5
+    2300224: slat 50
+    2300226: slat 51
+    2300228: slat 52
+    2300230: slat 53
+    2300232: slat 54
+    2300234: slat 55
+    2300236: slat 56
+    2300238: slat 57
+    2300240: slat 58
+    2300242: slat 59
+    2300244: slat 6
+    2300246: slat 60
+    2300248: slat 61
+    2300250: slat 62
+    2300252: slat 7
+    2300254: slat 8
+    2300256: slat 9
+    2300258: 'Trash Receptacle Dome-Park '
+    2300260: Tree_Tropical_Palm_Bent_30_
+    2300262: Tree_Tropical_Palm_Bent_30_ 1
+    2300264: Tree_Tropical_Palm_Bent_30_ 2
+    2300266: trunk
+    2300268: trunk 1
+    2300270: wheel
+    2300272: wheel 1
+    2300274: wheel 2
+    2300276: wheel 3
+    2300278: wheel 4
+    2300280: wheel 5
+    2300282: Wood Slat
+    2300284: Wood Slat 1
+    2300286: Wood Slat 10
+    2300288: Wood Slat 11
+    2300290: Wood Slat 12
+    2300292: Wood Slat 13
+    2300294: Wood Slat 14
+    2300296: Wood Slat 15
+    2300298: Wood Slat 16
+    2300300: Wood Slat 17
+    2300302: Wood Slat 2
+    2300304: Wood Slat 3
+    2300306: Wood Slat 4
+    2300308: Wood Slat 5
+    2300310: Wood Slat 6
+    2300312: Wood Slat 7
+    2300314: Wood Slat 8
+    2300316: Wood Slat 9
+    3300000: back
+    3300002: back 1
+    3300004: back 2
+    3300006: back 3
+    3300008: back 4
+    3300010: back 5
+    3300012: brace
+    3300014: brace 1
+    3300016: brace 2
+    3300018: brace 3
+    3300020: brace 4
+    3300022: brace 5
+    3300024: brace2
+    3300026: brace2 1
+    3300028: brace2 10
+    3300030: brace2 11
+    3300032: brace2 12
+    3300034: brace2 13
+    3300036: brace2 14
+    3300038: brace2 2
+    3300040: brace2 3
+    3300042: brace2 4
+    3300044: brace2 5
+    3300046: brace2 6
+    3300048: brace2 7
+    3300050: brace2 8
+    3300052: brace2 9
+    3300054: chair_side
+    3300056: chair_side 1
+    3300058: chair_side 2
+    3300060: chair_side 3
+    3300062: chair_side 4
+    3300064: chair_side 5
+    3300066: crown
+    3300068: crown 1
+    3300070: cushion leg
+    3300072: cushion leg 1
+    3300074: cushion leg 2
+    3300076: cushion top
+    3300078: cushion top 1
+    3300080: cushion top 2
+    3300082: Group 1
+    3300084: Group 3
+    3300086: Group 5
+    3300088: Group 9
+    3300090: Group#1
+    3300092: leaf
+    3300094: leaf 1
+    3300096: leaf 2
+    3300098: leaf 3
+    3300100: leaf 4
+    3300102: leaf 5
+    3300104: Picnic Leg
+    3300106: Picnic Leg 1
+    3300108: Picnic Leg 2
+    3300110: Picnic Leg 3
+    3300112: Picnic Plank
+    3300114: Picnic Plank 1
+    3300116: Picnic Plank 2
+    3300118: Picnic Plank 3
+    3300120: Picnic Plank 4
+    3300122: Picnic Plank 5
+    3300124: Picnic Plank 6
+    3300126: Picnic Plank 7
+    3300128: Picnic Plank 8
+    3300130: Picnic Plank 9
+    3300132: slat
+    3300134: slat 1
+    3300136: slat 10
+    3300138: slat 11
+    3300140: slat 12
+    3300142: slat 13
+    3300144: slat 14
+    3300146: slat 15
+    3300148: slat 16
+    3300150: slat 17
+    3300152: slat 18
+    3300154: slat 19
+    3300156: slat 2
+    3300158: slat 20
+    3300160: slat 21
+    3300162: slat 22
+    3300164: slat 23
+    3300166: slat 24
+    3300168: slat 25
+    3300170: slat 26
+    3300172: slat 27
+    3300174: slat 28
+    3300176: slat 29
+    3300178: slat 3
+    3300180: slat 30
+    3300182: slat 31
+    3300184: slat 32
+    3300186: slat 33
+    3300188: slat 34
+    3300190: slat 35
+    3300192: slat 36
+    3300194: slat 37
+    3300196: slat 38
+    3300198: slat 39
+    3300200: slat 4
+    3300202: slat 40
+    3300204: slat 41
+    3300206: slat 42
+    3300208: slat 43
+    3300210: slat 44
+    3300212: slat 45
+    3300214: slat 46
+    3300216: slat 47
+    3300218: slat 48
+    3300220: slat 49
+    3300222: slat 5
+    3300224: slat 50
+    3300226: slat 51
+    3300228: slat 52
+    3300230: slat 53
+    3300232: slat 54
+    3300234: slat 55
+    3300236: slat 56
+    3300238: slat 57
+    3300240: slat 58
+    3300242: slat 59
+    3300244: slat 6
+    3300246: slat 60
+    3300248: slat 61
+    3300250: slat 62
+    3300252: slat 7
+    3300254: slat 8
+    3300256: slat 9
+    3300258: 'Trash Receptacle Dome-Park '
+    3300260: Tree_Tropical_Palm_Bent_30_
+    3300262: Tree_Tropical_Palm_Bent_30_ 1
+    3300264: Tree_Tropical_Palm_Bent_30_ 2
+    3300266: trunk
+    3300268: trunk 1
+    3300270: wheel
+    3300272: wheel 1
+    3300274: wheel 2
+    3300276: wheel 3
+    3300278: wheel 4
+    3300280: wheel 5
+    3300282: Wood Slat
+    3300284: Wood Slat 1
+    3300286: Wood Slat 10
+    3300288: Wood Slat 11
+    3300290: Wood Slat 12
+    3300292: Wood Slat 13
+    3300294: Wood Slat 14
+    3300296: Wood Slat 15
+    3300298: Wood Slat 16
+    3300300: Wood Slat 17
+    3300302: Wood Slat 2
+    3300304: Wood Slat 3
+    3300306: Wood Slat 4
+    3300308: Wood Slat 5
+    3300310: Wood Slat 6
+    3300312: Wood Slat 7
+    3300314: Wood Slat 8
+    3300316: Wood Slat 9
+    4300000: Mesh Group 1
+    4300002: Mesh Group 3
+    4300004: Mesh Group 5
+    4300006: Mesh Group#1
+    4300008: Mesh Group 9
+    4300010: Mesh crown
+    4300012: Mesh leaf
+    4300014: Mesh trunk
+    4300016: Mesh Tree_Tropical_Palm_Bent_30_
+    4300018: 'Mesh Trash Receptacle Dome-Park '
+    4300020: Mesh Wood Slat
+    4300022: Mesh Picnic Plank
+    4300024: Mesh Picnic Plank
+    4300026: Mesh Picnic Leg
+    4300028: Mesh back
+    4300030: Mesh slat
+    4300032: Mesh cushion top
+    4300034: Mesh brace
+    4300036: Mesh cushion leg
+    4300038: Mesh brace2
+    4300040: Mesh chair_side
+    4300042: Mesh wheel
+    4300044: Mesh wheel
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

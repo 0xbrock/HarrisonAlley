@@ -33,6 +33,8 @@ public class GameManager : MonoBehaviour
 
     public AudioSource musicAudioSource;
 
+	public AudioClip gameOverSound;
+
     public bool gameIsOver = false;
 
     public GameObject playAgainButtons;
@@ -117,6 +119,9 @@ public class GameManager : MonoBehaviour
 
         // repurpose the timer to display a message to the player
         mainTimerDisplay.text = "GAME OVER";
+
+		Time.timeScale = 0.0f;
+		musicAudioSource.PlayOneShot (gameOverSound);
 
         // activate the gameOverScoreOutline gameObject, if it is set 
         if (gameOverScoreOutline)
