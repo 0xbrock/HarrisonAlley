@@ -28,6 +28,9 @@ public class TargetSpawner : MonoBehaviour {
 
 	public void SetOccupied(bool occupied) {
 		this.occupied = occupied;
+		if (occupied == false) {
+			timeToSpawn = Random.Range (5.0f, maxTimeBetweenSpawns);
+		}
 	}
 
 	private void SpawnTarget() {
