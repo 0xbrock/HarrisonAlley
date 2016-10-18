@@ -22,11 +22,13 @@ public class GameManager : MonoBehaviour
     private const string DISPLAY_TEXT_FORMAT = "{0} msf\n({1} FPS)";
     private const string MSF_FORMAT = "#.#";
     private const float MS_PER_SEC = 1000f;
+	private int currentHighScore;
     private float fps = 60;
     public Text fpsDisplay;
 
     public Text hitScoreDisplay;
     public Text missScoreDisplay;
+	public Text highScoreDisplay;
     public Text mainTimerDisplay;
 
     public GameObject gameOverScoreOutline;
@@ -43,6 +45,7 @@ public class GameManager : MonoBehaviour
     public GameObject nextLevelButtons;
     public string nextLevelToLoad;
 
+	public string mainMenuScene;
     private float currentTime;
 
     // setup the game
@@ -51,6 +54,7 @@ public class GameManager : MonoBehaviour
 
         // set the current time to the startTime specified
         currentTime = startTime;
+		currentHighScore = PlayerPrefs.GetInt ("Highscore");
 
         // get a reference to the GameManager component for use by other scripts
         if (gm == null)
@@ -123,6 +127,8 @@ public class GameManager : MonoBehaviour
 		Time.timeScale = 0.0f;
 		musicAudioSource.PlayOneShot (gameOverSound);
 
+		SetHighScore ();
+
         // activate the gameOverScoreOutline gameObject, if it is set 
         if (gameOverScoreOutline)
             gameOverScoreOutline.SetActive(true);
@@ -137,7 +143,20 @@ public class GameManager : MonoBehaviour
             musicAudioSource.pitch = 0.5f; // slow down the music
             musicAudioSource.volume += 0.2f;
         }
+
+		Time.timeScale = 1f;
+		Invoke ("MainMenu", 5);
     }
+
+	void SetHighScore() {
+		var totalScore = hitScore - missScore;
+		if (totalScore < 0) {
+			totalScore = 0;
+		}
+		if (totalScore > currentHighScore) {
+			PlayerPrefs.SetInt ("Highscore", totalScore);
+		}
+	}
 
     void BeatLevel()
     {
@@ -214,5 +233,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(nextLevelToLoad);
     }
 
-
+	public void MainMenu() {
+		SceneManager.LoadScene (mainMenuScene);
+	}
 }
