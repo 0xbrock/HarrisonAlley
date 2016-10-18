@@ -32,9 +32,12 @@ public class TargetExit : MonoBehaviour
     // destroy the gameObject when called
     void KillTarget()
     {
-		source = parent.GetComponent<AudioSource> ();
-		source.PlayOneShot (escapeSound);
-		parent.SetOccupied (false);
+		if (parent != null) {
+			source = parent.GetComponent<AudioSource> ();
+			source.PlayOneShot (escapeSound);
+			parent.SetOccupied (false);
+		}
+
 		// if game manager exists, make adjustments based on target properties
 		if (GameManager.gm)
 			GameManager.gm.targetMiss(5, 0);
