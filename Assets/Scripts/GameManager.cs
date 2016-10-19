@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
     public GameObject nextLevelButtons;
     public string nextLevelToLoad;
 
-	public string mainMenuScene;
+	public string nextScene;
     private float currentTime;
 
     // setup the game
@@ -55,14 +55,16 @@ public class GameManager : MonoBehaviour
         // set the current time to the startTime specified
         currentTime = startTime;
 		currentHighScore = PlayerPrefs.GetInt ("Highscore");
+        hitScore = PlayerPrefs.GetInt("CurrentHitScore");
+        missScore = PlayerPrefs.GetInt("CurrentMissScore");
 
         // get a reference to the GameManager component for use by other scripts
         if (gm == null)
             gm = this.gameObject.GetComponent<GameManager>();
 
         // init scoreboard to 0
-        hitScoreDisplay.text = "0";
-        missScoreDisplay.text = "0";
+        hitScoreDisplay.text = hitScore.ToString();
+        missScoreDisplay.text = missScore.ToString();
 
         // inactivate the gameOverScoreOutline gameObject, if it is set
         if (gameOverScoreOutline)
@@ -145,7 +147,7 @@ public class GameManager : MonoBehaviour
         }
 
 		Time.timeScale = 1f;
-		Invoke ("MainMenu", 5);
+		Invoke ("Proceed", 5);
     }
 
 	void SetHighScore() {
@@ -233,7 +235,16 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(nextLevelToLoad);
     }
 
-	public void MainMenu() {
-		SceneManager.LoadScene (mainMenuScene);
+	public void Proceed() {
+        if (nextScene.Equals("MainMenuScene"))
+        {
+            PlayerPrefs.SetInt("CurrentHitScore", 0);
+            PlayerPrefs.SetInt("CurrentMissScore", 0);
+        } else
+        {
+            PlayerPrefs.SetInt("CurrentHitScore", hitScore);
+            PlayerPrefs.SetInt("CurrentMissScore", missScore);
+        }
+		SceneManager.LoadScene (nextScene);
 	}
 }

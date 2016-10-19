@@ -6,6 +6,8 @@ public class MainMenuManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		highScoreText.text = PlayerPrefs.GetInt ("Highscore").ToString();
-	}
+        PlayerPrefs.SetInt("CurrentHitScore", 0);
+        PlayerPrefs.SetInt("CurrentMissScore", 0);
+    }
 
 }

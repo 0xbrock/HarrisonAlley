@@ -32,6 +32,10 @@ public class TargetExit : MonoBehaviour
     // destroy the gameObject when called
     void KillTarget()
     {
+        if (gameObject.CompareTag("Projectile"))
+        {
+            return;
+        }
 		if (parent != null) {
 			source = parent.GetComponent<AudioSource> ();
 			source.PlayOneShot (escapeSound);

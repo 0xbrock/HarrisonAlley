@@ -39,5 +39,6 @@ public class TargetSpawner : MonoBehaviour {
 		target.GetComponent<TargetBehavior> ().SetParent (this);
 		target.GetComponent<TargetExit> ().SetParent (this);
 		target.transform.position = gameObject.transform.position;
+        target.transform.rotation = gameObject.transform.rotation;
 	}
 }
