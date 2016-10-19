@@ -1,0 +1,367 @@
+fileFormatVersion: 2
+guid: a1c0bd1a5339411458e5535e4233e293
+timeCreated: 1476852106
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e000000
+  assetHash:
+    serializedVersion: 2
+    Hash: b071eda2e6dab2ca143159312da58657
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 1471.2305, y: 113.06689, z: -684.3315}
+      lookAt: {x: -281.33975, y: -379.5715, z: 876.89966}
+      up: {x: -0.15338175, y: 0.97867495, z: 0.13663611}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: default_object
+    100002: primary_Room01
+    100004: primary_Room02
+    100006: primary_Room03
+    100008: primary_Room04
+    100010: primary_Room05
+    100012: primary_Room06
+    100014: primary_Room07
+    100016: primary_Room08
+    100018: primary_Room09
+    100020: primary_Room0A
+    100022: primary_Room0B
+    100024: primary_Room0C
+    100026: primary_Room0D
+    100028: primary_Room0E
+    100030: primary_Room0F
+    100032: primary_Room10
+    100034: primary_Room11
+    100036: primary_Room12
+    100038: primary_Room13
+    100040: primary_Room14
+    100042: primary_Room15
+    100044: primary_Room16
+    100046: primary_Room17
+    100048: primary_Room18
+    100050: primary_Room19
+    100052: primary_Room1A
+    100054: primary_Room1B
+    100056: secondary_Room01
+    100058: secondary_Room02
+    100060: secondary_Room03
+    100062: secondary_Room04
+    100064: secondary_Room05
+    100066: secondary_Room06
+    100068: secondary_Room07
+    100070: secondary_Room08
+    100072: secondary_Room09
+    100074: secondary_Room0A
+    100076: secondary_Room0B
+    100078: secondary_Room0C
+    100080: secondary_Room0D
+    100082: secondary_Room0E
+    100084: secondary_Room0F
+    100086: secondary_Room10
+    100088: secondary_Room11
+    100090: secondary_Room12
+    100092: secondary_Room13
+    100094: secondary_Room14
+    100096: secondary_Room15
+    100098: secondary_Room16
+    100100: secondary_Room17
+    100102: secondary_Room18
+    100104: secondary_Room19
+    100106: secondary_Room1A
+    100108: secondary_Room1B
+    100110: skp378C
+    100112: //RootNode
+    400000: default_object
+    400002: primary_Room01
+    400004: primary_Room02
+    400006: primary_Room03
+    400008: primary_Room04
+    400010: primary_Room05
+    400012: primary_Room06
+    400014: primary_Room07
+    400016: primary_Room08
+    400018: primary_Room09
+    400020: primary_Room0A
+    400022: primary_Room0B
+    400024: primary_Room0C
+    400026: primary_Room0D
+    400028: primary_Room0E
+    400030: primary_Room0F
+    400032: primary_Room10
+    400034: primary_Room11
+    400036: primary_Room12
+    400038: primary_Room13
+    400040: primary_Room14
+    400042: primary_Room15
+    400044: primary_Room16
+    400046: primary_Room17
+    400048: primary_Room18
+    400050: primary_Room19
+    400052: primary_Room1A
+    400054: primary_Room1B
+    400056: secondary_Room01
+    400058: secondary_Room02
+    400060: secondary_Room03
+    400062: secondary_Room04
+    400064: secondary_Room05
+    400066: secondary_Room06
+    400068: secondary_Room07
+    400070: secondary_Room08
+    400072: secondary_Room09
+    400074: secondary_Room0A
+    400076: secondary_Room0B
+    400078: secondary_Room0C
+    400080: secondary_Room0D
+    400082: secondary_Room0E
+    400084: secondary_Room0F
+    400086: secondary_Room10
+    400088: secondary_Room11
+    400090: secondary_Room12
+    400092: secondary_Room13
+    400094: secondary_Room14
+    400096: secondary_Room15
+    400098: secondary_Room16
+    400100: secondary_Room17
+    400102: secondary_Room18
+    400104: secondary_Room19
+    400106: secondary_Room1A
+    400108: secondary_Room1B
+    400110: skp378C
+    400112: //RootNode
+    2300000: primary_Room01
+    2300002: primary_Room02
+    2300004: primary_Room03
+    2300006: primary_Room04
+    2300008: primary_Room05
+    2300010: primary_Room06
+    2300012: primary_Room07
+    2300014: primary_Room08
+    2300016: primary_Room09
+    2300018: primary_Room0A
+    2300020: primary_Room0B
+    2300022: primary_Room0C
+    2300024: primary_Room0D
+    2300026: primary_Room0E
+    2300028: primary_Room0F
+    2300030: primary_Room10
+    2300032: primary_Room11
+    2300034: primary_Room12
+    2300036: primary_Room13
+    2300038: primary_Room14
+    2300040: primary_Room15
+    2300042: primary_Room16
+    2300044: primary_Room17
+    2300046: primary_Room18
+    2300048: primary_Room19
+    2300050: primary_Room1A
+    2300052: primary_Room1B
+    2300054: secondary_Room01
+    2300056: secondary_Room02
+    2300058: secondary_Room03
+    2300060: secondary_Room04
+    2300062: secondary_Room05
+    2300064: secondary_Room06
+    2300066: secondary_Room07
+    2300068: secondary_Room08
+    2300070: secondary_Room09
+    2300072: secondary_Room0A
+    2300074: secondary_Room0B
+    2300076: secondary_Room0C
+    2300078: secondary_Room0D
+    2300080: secondary_Room0E
+    2300082: secondary_Room0F
+    2300084: secondary_Room10
+    2300086: secondary_Room11
+    2300088: secondary_Room12
+    2300090: secondary_Room13
+    2300092: secondary_Room14
+    2300094: secondary_Room15
+    2300096: secondary_Room16
+    2300098: secondary_Room17
+    2300100: secondary_Room18
+    2300102: secondary_Room19
+    2300104: secondary_Room1A
+    2300106: secondary_Room1B
+    3300000: primary_Room01
+    3300002: primary_Room02
+    3300004: primary_Room03
+    3300006: primary_Room04
+    3300008: primary_Room05
+    3300010: primary_Room06
+    3300012: primary_Room07
+    3300014: primary_Room08
+    3300016: primary_Room09
+    3300018: primary_Room0A
+    3300020: primary_Room0B
+    3300022: primary_Room0C
+    3300024: primary_Room0D
+    3300026: primary_Room0E
+    3300028: primary_Room0F
+    3300030: primary_Room10
+    3300032: primary_Room11
+    3300034: primary_Room12
+    3300036: primary_Room13
+    3300038: primary_Room14
+    3300040: primary_Room15
+    3300042: primary_Room16
+    3300044: primary_Room17
+    3300046: primary_Room18
+    3300048: primary_Room19
+    3300050: primary_Room1A
+    3300052: primary_Room1B
+    3300054: secondary_Room01
+    3300056: secondary_Room02
+    3300058: secondary_Room03
+    3300060: secondary_Room04
+    3300062: secondary_Room05
+    3300064: secondary_Room06
+    3300066: secondary_Room07
+    3300068: secondary_Room08
+    3300070: secondary_Room09
+    3300072: secondary_Room0A
+    3300074: secondary_Room0B
+    3300076: secondary_Room0C
+    3300078: secondary_Room0D
+    3300080: secondary_Room0E
+    3300082: secondary_Room0F
+    3300084: secondary_Room10
+    3300086: secondary_Room11
+    3300088: secondary_Room12
+    3300090: secondary_Room13
+    3300092: secondary_Room14
+    3300094: secondary_Room15
+    3300096: secondary_Room16
+    3300098: secondary_Room17
+    3300100: secondary_Room18
+    3300102: secondary_Room19
+    3300104: secondary_Room1A
+    3300106: secondary_Room1B
+    4300000: Mesh primary_Room01
+    4300002: Mesh secondary_Room01
+    4300004: Mesh primary_Room02
+    4300006: Mesh secondary_Room02
+    4300008: Mesh primary_Room03
+    4300010: Mesh secondary_Room03
+    4300012: Mesh primary_Room04
+    4300014: Mesh secondary_Room04
+    4300016: Mesh primary_Room05
+    4300018: Mesh secondary_Room05
+    4300020: Mesh primary_Room06
+    4300022: Mesh secondary_Room06
+    4300024: Mesh primary_Room07
+    4300026: Mesh secondary_Room07
+    4300028: Mesh primary_Room08
+    4300030: Mesh secondary_Room08
+    4300032: Mesh primary_Room09
+    4300034: Mesh secondary_Room09
+    4300036: Mesh primary_Room0A
+    4300038: Mesh secondary_Room0A
+    4300040: Mesh primary_Room0B
+    4300042: Mesh secondary_Room0B
+    4300044: Mesh primary_Room0C
+    4300046: Mesh secondary_Room0C
+    4300048: Mesh primary_Room0D
+    4300050: Mesh secondary_Room0D
+    4300052: Mesh primary_Room0E
+    4300054: Mesh secondary_Room0E
+    4300056: Mesh primary_Room0F
+    4300058: Mesh secondary_Room0F
+    4300060: Mesh primary_Room10
+    4300062: Mesh secondary_Room10
+    4300064: Mesh primary_Room11
+    4300066: Mesh secondary_Room11
+    4300068: Mesh primary_Room12
+    4300070: Mesh secondary_Room12
+    4300072: Mesh primary_Room13
+    4300074: Mesh secondary_Room13
+    4300076: Mesh primary_Room14
+    4300078: Mesh secondary_Room14
+    4300080: Mesh primary_Room15
+    4300082: Mesh secondary_Room15
+    4300084: Mesh primary_Room16
+    4300086: Mesh secondary_Room16
+    4300088: Mesh primary_Room17
+    4300090: Mesh secondary_Room17
+    4300092: Mesh primary_Room18
+    4300094: Mesh secondary_Room18
+    4300096: Mesh primary_Room19
+    4300098: Mesh secondary_Room19
+    4300100: Mesh primary_Room1A
+    4300102: Mesh secondary_Room1A
+    4300104: Mesh primary_Room1B
+    4300106: Mesh secondary_Room1B
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
